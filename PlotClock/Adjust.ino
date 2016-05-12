@@ -64,7 +64,7 @@ inline void setHour() {
       case 2:
         m = incoming * 10;
         break;
-      case 4:
+      case 3:
         m += incoming;
         break;
     }
