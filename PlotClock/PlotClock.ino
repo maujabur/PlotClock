@@ -3,7 +3,7 @@
 //
 // Interactive calibration, interface translations and modifications by
 // Mau Jabur - maumaker -at- pandoralab -dot- com -dot- br
-// Version 1.0
+// Version 1.01
 //
 // 
 // based on version 1.03 code by 
@@ -23,7 +23,7 @@
 //       - see http://www.pjrc.com/teensy/td_libs_DS1307RTC.html for how to hook up the real time clock
 // 1.03  Fixed the length bug at the servo2 angle calculation, other fixups
 
-#define VERSION 1.00
+#define VERSION 1.01
 
 // choose a translation
 #include "Translation_PT.h"

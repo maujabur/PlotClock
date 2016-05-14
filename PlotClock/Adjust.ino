@@ -75,6 +75,9 @@ inline void setHour() {
   Serial.println();
   Serial.print(h);
   Serial.print(':');
+  if (m<10) {
+    Serial.print(F("0"));
+  }
   Serial.println(m);
   setTime(h, m, 0, 0, 0, 0);
 }
@@ -152,12 +155,16 @@ void adjVar(char incoming, char* head, int &var, int increment) {
     case '8':
     case 'd':
     case 'w':
+    case 'D':
+    case 'W':
       break;
     case '-':
     case '4':
     case '2':
     case 'a':
     case 's':
+    case 'A':
+    case 'S':
       increment = -increment;
       break;
     default: return;
