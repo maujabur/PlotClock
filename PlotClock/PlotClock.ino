@@ -5,9 +5,12 @@
 // Mau Jabur - maumaker -at- pandoralab -dot- com -dot- br
 // Version 1.0
 //
-// 
+// // LICENSE:
+// Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+//[https://creativecommons.org/licenses/by-sa/4.0/]
+//
 // based on version 1.03 code by 
-// cc - by Johannes Heberlein 2014
+// Johannes Heberlein 2014
 // v 1.03
 // thingiverse.com/joo   wiki.fablab-nuernberg.de
 // units: mm; microseconds; radians
