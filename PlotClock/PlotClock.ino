@@ -65,7 +65,7 @@
 #include <DS1307RTC.h> // see http://playground.arduino.cc/Code/time    
 #endif
 
-#include <Time.h> // see http://playground.arduino.cc/Code/time 
+#include "Time.h" // see http://playground.arduino.cc/Code/time 
 
 #include <Servo.h>
 Servo servo1;
