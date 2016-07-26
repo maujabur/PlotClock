@@ -16,7 +16,6 @@
     Serial.println();\
     Serial.println(F("it may take a while to recognize commands."));\
     Serial.println(F("The clock has to finish the current task"));\
-    Serial.println();\
   }
 
 #define RTC_OK(){\
@@ -33,7 +32,6 @@
 #define OPERATION_MSG() {\
     Serial.println(F("\nOPERATION"));\
     Serial.println(F("send [I] to enter interactive adjust"));\
-    Serial.println();\
   }
 
 #define SET_HOUR_MSG() {\

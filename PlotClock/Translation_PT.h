@@ -16,7 +16,6 @@
     Serial.println();\
     Serial.println(F("Reconhecer comandos pode demorar um pouco."));\
     Serial.println(F("O equipamento precisa terminar as tarefas"));\
-    Serial.println();\
   }
 
 #define RTC_OK(){\
@@ -33,7 +32,6 @@
 #define OPERATION_MSG() {\
     Serial.println(F("\nOPERACAO"));\
     Serial.println(F("envie [I] para ajuste interativo"));\
-    Serial.println();\
   }
 
 #define SET_HOUR_MSG() {\

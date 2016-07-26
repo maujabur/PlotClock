@@ -1,7 +1,8 @@
 #ifndef CFG_H
 #define CFG_H
 
-#include <EEPROM.h>
+//#include <EEPROM.h>
+#include "EEPROM.h"
 
 struct Config {
   float version; // Used to check if the data stored is compatible
@@ -103,5 +104,3 @@ void readConfig(int address, Config &c) {
 
 
 #endif // #ifndef CFG_H
-
-
